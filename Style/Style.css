@@ -11,9 +11,11 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 Navbar
-.navbar{
+nav{
     display: flex;
+    height: 5rem !important;
     justify-content: space-around !important;
+    background-color: #fff;
 }
 main .container{
     margin-top: 1rem;
@@ -32,11 +34,13 @@ form{
 }
 form .btn{
     width: 40%;
-    border-radius: 0;
+    border-radius: 4px;
     padding: 0.5rem 0.7rem;
 }
 form input{
+    border-radius: 4px !important;
     width: 55%;
-    padding: 0.45rem 0.58rem;
+    padding: 0.47rem 0.58rem !important;
     margin-right: 0.5rem;
+    border: 1.9px solid hsl(243, 87%, 12%);
 }
