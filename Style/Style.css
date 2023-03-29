@@ -26,3 +26,17 @@ main h1{
 main p {
     color: hsl(243, 87%, 12%);
 }
+form{
+    display: flex;
+    align-items: center;
+}
+form .btn{
+    width: 40%;
+    border-radius: 0;
+    padding: 0.5rem 0.7rem;
+}
+form input{
+    width: 55%;
+    padding: 0.8rem 0.58rem;
+    margin-right: 0.5rem;
+}
