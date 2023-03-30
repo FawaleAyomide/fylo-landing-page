@@ -44,3 +44,32 @@ form input{
     margin-right: 0.5rem;
     border: 1.9px solid hsl(243, 87%, 12%);
 }
+/* section */
+.pro h1{
+    color: hsl(243, 87%, 12%);
+    font-size: 2rem;
+    font-weight: 900 !important;
+}
+.pro p, h6 {
+    color: hsl(243, 87%, 12%) !important; 
+
+}
+.ceo{
+    gap: 1rem;
+}
+.ceo img{
+    border-radius: 50%;
+}
+.ceo text{
+    line-height: 0.2rem;
+    font-size: 1rem;
+}
+.link{
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid hsl(170, 45%, 43%) !important;
+}

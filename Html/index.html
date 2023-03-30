@@ -21,9 +21,7 @@
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg my-2 d-flex justify-content-flex-end"
-    >
+    <nav class="navbar navbar-expand-lg my-2 d-flex justify-content-flex-end">
       <div class="container-fluid">
         <img
           src="../images/logo.svg"
@@ -59,26 +57,26 @@
         </div>
       </div>
     </nav>
-    
+
     <main>
       <div class="container d-flex my-4">
-        <div class="row featurette-heading justify-content-center align-items-center cont">
+        <div
+          class="row featurette-heading justify-content-center align-items-center cont"
+        >
           <div class="col-md-6 order-md-1 main">
-            <h1 class="featurette-heading"><b>
-              All your files in one secure
-              location, accessible anywhere.
-            </b>
+            <h1 class="featurette-heading text-fluid">
+              <b>
+                All your files in one secure location, accessible anywhere.
+              </b>
             </h1>
             <p class="lead">
               Fylo stores your most important files in one secure location.
-              Access
-              them wherever you need, share and collaborate with friends,
-              family,
-              and co-workers.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
             </p>
             <form>
-                <input type="text" placeholder="Enter your mail..." />
-                <button class="btn btn-primary">Get Started</button>
+              <input type="text" placeholder="Enter your mail..." />
+              <button class="btn btn-primary">Get Started</button>
             </form>
           </div>
           <div class="col-md-6 order-md-2 aside">
@@ -86,20 +84,54 @@
               class="img-fluid"
               src="../images/illustration-1.svg"
               alt="illustration-img"
-              
             />
           </div>
         </div>
       </div>
     </main>
     <section>
-      Stay productive, wherever you are Never let location be an issue when
-      accessing your files. Fylo has you covered for all of your file storage
-      needs. Securely share files and folders with friends, family and
-      colleagues for live collaboration. No email attachments required! See how
-      Fylo works Fylo has improved our team productivity by an order of
-      magnitude. Since making the switch our team has become a well-oiled
-      collaboration machine. Kyle Burton Founder & CEO, Huddle
+      <div class="container my-5 sect">
+        <div class="row featurette-heading justify-content-center align-items-center cont-1">
+          <div class="col-md-6 pro">
+            <h1 class="featurette-heading text-fluid">
+              Stay productive, wherever you are
+            </h1>
+            
+            <p class="lead">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="lead">
+              Securely share files and folders with friends, family and colleagues
+              for live collaboration. No email attachments required!
+            </p>
+            <a class="link py-2" href="#">See how Fylo works <img src="/images/icon-arrow.svg" alt="arrow" width="20" height="20"></a>
+            <!-- sample -->
+            <div class="container-fluid card my-4" style="width: 22rem;">
+              <div class="card-body">
+                <img class="img-fluid" src="/images/icon-quotes.svg" alt="quote">
+                <div class="d-flex align-items-center">
+                  <p class="card-text py-2" style="line-height: 1.7rem;">Fylo has improved our team productivity by an order of magnitude.
+                    Since making the switch our team has become a well-oiled
+                    collaboration machine.</p>
+                </div>
+                  <div class="d-flex align-items-center ceo">
+                    <img src="/images/avatar-testimonial.jpg" alt="avatar" width="70" width="70">
+                    <div class="text">
+                      <h6>Kyle Burton</h6>  
+                      <p>Founder & CEO, Huddle</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- end -->
+
+          </div>
+          <div class="col-md-6 img">
+            <img class="img-fluid" src="/images/illustration-2.svg" alt="">
+          </div>
+          </div>
+      </div>
     </section>
 
     <section class="container-2">
