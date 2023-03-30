@@ -1,5 +1,11 @@
 /* media query */
 @media (max-width: 767px) {
+    /* navbar */
+    .cont{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
     .main{
         padding: 0 2rem 3rem 2rem;
     }
