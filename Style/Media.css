@@ -1,5 +1,5 @@
 /* media query */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   /* navbar */
   .cont {
     display: flex;
@@ -55,8 +55,9 @@
     text-align: center;
     font-size: 1.5rem;
   }
-  .pro p {
+  .p {
     font-size: 1rem;
+    padding: 0 1rem;
   }
   .link {
     display: flex;
@@ -80,6 +81,28 @@
     align-items: center;
     margin: auto;
     width: 15rem;
+  }
+  /* section-2 */
+  .contain{
+    padding: 5rem 2rem !important;
+  }
+  .gen h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .gen p {
+    font-size: 0.9rem;
+    text-align: center !important;
+    margin: 1.5rem 0;
+    padding-right: 0 !important;
+  }
+  .form input{
+      width: 100% !important;
+  }
+  .form .btn{
+    width: 100% !important;
+    font-size: 0.8rem !important;
+    padding: 0.8rem 0;
   }
 }
 @media (max-width: 360px) {

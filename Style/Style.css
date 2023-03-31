@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Raleway:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Raleway:wght@400&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,6 +16,7 @@ nav {
   height: 5rem !important;
   justify-content: space-around !important;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 /* Main */
 main .container {
@@ -59,8 +60,10 @@ form input {
 }
 .pro h1 {
   color: hsl(243, 87%, 12%);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900 !important;
+}
+.pro p{
 }
 .lead,
 h6 {
@@ -104,4 +107,40 @@ h6 {
   margin: auto;
   color: hsl(170, 45%, 43%);
   border-bottom: 2px solid hsl(170, 45%, 43%) !important;
+}
+.card{
+    box-shadow: 1px 1px 5px 5px hsla(0, 0%, 75%, 0.411);
+    /* width: 70% !important; */
+}
+/* section-2 */
+.contain{
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+    padding: 5rem 6rem !important;
+    height: 100% !important;
+}
+.cont-2{
+}
+.gen{
+    
+}
+.gen p {
+    padding-right: 4rem !important;
+    text-align: left !important;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    font-family: "Outfit", sans-serif;
+}
+.form input{
+    width: 90%;
+    padding: 0.7rem 1rem !important;
+}
+.form .btn{
+    width: 55%;
+    font-size: 0.8rem !important;
+    padding: 0.8rem 0;
 }
