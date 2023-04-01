@@ -61,7 +61,7 @@
   .see-more {
     align-items: center !important;
     display: block;
-    width: 10.2em;
+    width: 10.3em;
     padding: 0.5rem 0;
     margin: auto !important; 
   }
@@ -124,7 +124,7 @@
     margin: 1rem 0;
   }
   .foot{
-    padding: 2rem !important;
+    padding: 4rem 2rem !important;
   }
 }
 @media (max-width: 360px) {
