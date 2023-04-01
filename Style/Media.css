@@ -53,10 +53,10 @@
   }
   .pro h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   .p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .see-more {
     align-items: center !important;
@@ -122,6 +122,9 @@
   }
   #img{
     margin: 1rem 0;
+  }
+  .foot{
+    padding: 2rem !important;
   }
 }
 @media (max-width: 360px) {
