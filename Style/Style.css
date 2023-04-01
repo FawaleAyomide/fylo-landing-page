@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Raleway:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Raleway:wght@400&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,7 +16,7 @@ nav {
   height: 5rem !important;
   justify-content: space-around !important;
   background-color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 /* Main */
 main .container {
@@ -54,6 +54,7 @@ form input {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-box-align: center;
   background-size: cover;
   margin-top: 9rem !important;
   padding: 5rem 7rem !important;
@@ -63,84 +64,125 @@ form input {
   font-size: 1.5rem;
   font-weight: 900 !important;
 }
-.pro p{
-}
 .lead,
 h6 {
   color: hsl(243, 87%, 12%) !important;
   font-weight: 500 !important;
 }
 .ceo {
-    gap: 1rem;
+  gap: 1rem;
 }
 .ceo img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .ceo text {
-    font-weight: 600 !important;
-    line-height: 0.2rem;
-    font-size: 1rem;
+  font-weight: 600 !important;
+  line-height: 0.2rem;
+  font-size: 1rem;
 }
-.card-text{
-    font-weight: 500 !important;
-    color: hsl(243, 87%, 12%) !important;
-    
+.card-text {
+  font-weight: 500 !important;
+  color: hsl(243, 87%, 12%) !important;
 }
 
-.text{
-    font-size: 0.9rem;
-    line-height: 0.5rem;
+.text {
+  font-size: 0.9rem;
+  line-height: 0.5rem;
 }
-.text h6{
-    font-weight: 700 !important;
-    font-size: 1rem;
+.text h6 {
+  font-weight: 700 !important;
+  font-size: 1rem;
 }
-.text p{
-    color: hsl(243, 87%, 12%) !important;
-
+.text p {
+  color: hsl(243, 87%, 12%) !important;
+}
+.see-more {
+  gap: 0.1rem;
+  align-items: center !important;
+  display: flex;
+  border-bottom: 2px solid hsl(170, 45%, 43%) !important;
+  width: 10em;
 }
 .link {
-  justify-content: center;
   text-decoration: none;
-  text-align: center;
-  font-size: 1rem;
-  margin: auto;
   color: hsl(170, 45%, 43%);
-  border-bottom: 2px solid hsl(170, 45%, 43%) !important;
 }
-.card{
-    box-shadow: 1px 1px 5px 5px hsla(0, 0%, 75%, 0.411);
-    /* width: 70% !important; */
+.card {
+  box-shadow: 1px 1px 5px 3px rgba(10, 10, 100, 0.2) !important;
 }
 /* section-2 */
-.contain{
-    background-color: hsl(238, 22%, 44%);
-    color: #fff;
-    padding: 5rem 6rem !important;
-    height: 100% !important;
+.contain {
+  background-color: hsl(238, 22%, 44%);
+  width: 100% !important;
 }
-.cont-2{
-}
-.gen{
-    
+.cont-2 {
+  color: #fff;
+  padding: 5rem 6rem !important;
+  height: 100% !important;
 }
 .gen p {
-    padding-right: 4rem !important;
-    text-align: left !important;
+  padding-right: 4rem !important;
+  text-align: left !important;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    font-family: "Outfit", sans-serif;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  font-family: "Outfit", sans-serif;
 }
-.form input{
-    width: 90%;
-    padding: 0.7rem 1rem !important;
+.form input {
+  width: 90%;
+  padding: 0.7rem 1rem !important;
 }
-.form .btn{
-    width: 55%;
-    font-size: 0.8rem !important;
-    padding: 0.8rem 0;
+.form .btn {
+  width: 55%;
+  font-size: 0.8rem !important;
+  padding: 0.8rem 0;
+}
+/* footer */
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+.footer {
+  color: #fff !important;
+}
+.foot {
+  height: 100%;
+  padding: 5rem;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+}
+.links a:hover {
+  color: rgb(201, 243, 243);
+  transition: 1s ease all;
+}
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+.link-img {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+h6 {
+  color: #fff !important;
+}
+.foot-cont {
+  display: flex;
+  flex-direction: column;
+}
+#link-img {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: 1rem;
+  align-items: flex-start;
+}
+span {
+  margin-left: 1rem;
 }

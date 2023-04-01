@@ -59,18 +59,17 @@
     font-size: 1rem;
     padding: 0 1rem;
   }
-  .link {
+  .see-more {
+    align-items: center !important;
+    display: block;
+    width: 10.2em;
+    padding: 0.5rem 0;
+    margin: auto !important; 
+  }
+  .see-wrapper{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.1rem;
-    width: 41%;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.8rem;
-    margin: auto;
-    color: hsl(170, 45%, 43%);
-    border-bottom: 2px solid hsl(170, 45%, 43%) !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
   }
   .ceo img {
     border-radius: 50%;
@@ -103,6 +102,27 @@
     width: 100% !important;
     font-size: 0.8rem !important;
     padding: 0.8rem 0;
+  }
+  /* footer */
+  .footer{
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 1rem !important;
+  }
+  .link-1{
+    margin: 1rem !important;
+  }
+  .links{
+    margin: 1rem;
+  }
+  #img{
+    margin: 1rem 0;
   }
 }
 @media (max-width: 360px) {
