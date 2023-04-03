@@ -18,6 +18,11 @@ nav {
   background-color: #fff;
   font-family: "Raleway", sans-serif;
 }
+.navbar-nav{
+  display: flex;
+  position: sticky;
+  left: 90rem;
+}
 /* Main */
 main .container {
   margin-top: 1rem;
@@ -67,7 +72,7 @@ form input {
 .lead,
 h6 {
   color: hsl(243, 87%, 12%) !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 .ceo {
   gap: 1rem;
@@ -90,6 +95,7 @@ h6 {
   line-height: 0.5rem;
 }
 .text h6 {
+  color: hsl(243, 87%, 12%) !important;
   font-weight: 700 !important;
   font-size: 1rem;
 }
@@ -176,7 +182,7 @@ h6 {
   display: flex;
   flex-direction: column;
 }
-#link-img {
+.imgg {
   display: flex;
   flex-direction: column;
   line-height: 2.5rem;

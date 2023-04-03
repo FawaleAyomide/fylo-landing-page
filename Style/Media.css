@@ -82,7 +82,11 @@
   }
   /* section-2 */
   .contain{
-    padding: 5rem 0 !important;
+    padding: 1rem 0 !important;
+    width: 100% !important;
+  }
+  .cont-2{
+    width: 100% !important;
   }
   .gen h1 {
     text-align: center;
@@ -91,7 +95,6 @@
   .gen p {
     font-size: 0.9rem;
     text-align: center !important;
-    margin: 1.5rem 0;
     padding-right: 0 !important;
   }
   .form input{
