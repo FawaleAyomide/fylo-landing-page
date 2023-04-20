@@ -83,7 +83,7 @@
   /* section-2 */
   .cont-2{
     width: 100% !important;
-    padding: 5rem 1rem !important;
+    padding: 5rem 0 5rem 1rem  !important;
   }
  
   .contain{
