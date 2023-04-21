@@ -27,6 +27,6 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ## Author
 
-- Website - [Add your name here](https://fylo-landing-page-8bjw.vercel.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/FawaleAyomide)
-- Twitter - [@yourusername](https://twitter.com/fawaleoladele)
+- Website - (https://fylo-landing-page-8bjw.vercel.app/)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/FawaleAyomide)
+- Twitter - (https://twitter.com/fawaleoladele)
