@@ -64,17 +64,18 @@ span.line-1 {
 }
 
 .top {
-    background-color: white;
+    background-color: hsl(238, 22%, 44%);
     position: fixed;
     top: 80px !important;
     left: -100%;
     display: block;
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: 100vh;
     padding: 40px;
     transition: all 1s ease;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    z-index: 3;
 }
 
 .animate {
@@ -84,16 +85,23 @@ span.line-1 {
 .top a {
     text-decoration: none;
     display: block;
+    margin-top: 3rem;
     margin-bottom: 25px;
-    color: black;
-    font-size: 17px;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+.top a:hover {
+    color: hsl(243, 87%, 12%);
+    font-size: 1.4rem;
 }
 
 @media (max-width: 768px) {
 
     /* newNavBar */
     .navBarSection {
-        position: absolute;
+        position: fixed;
         top: 0;
         z-index: 2;
     }
