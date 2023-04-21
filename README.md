@@ -15,8 +15,8 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/FawaleAyomide/fylo-landing-page)
-- Live Site URL: [Add live site URL here](https://fylo-landing-page-8bjw.vercel.app/)
+- Solution URL: (https://github.com/FawaleAyomide/fylo-landing-page)
+- Live Site URL: (https://fylo-landing-page-8bjw.vercel.app/)
 
 ### Built with
 
