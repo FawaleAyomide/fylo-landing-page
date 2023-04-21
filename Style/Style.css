@@ -14,12 +14,9 @@ body {
 
 
 /* Navbar  */
-nav {
-  display: flex;
-  height: 5rem !important;
-  justify-content: space-around !important;
-  background-color: #fff;
+.navBarSection {
   font-family: "Raleway", sans-serif;
+  padding: 1.5rem 5rem !important;
 }
 
 .navbar-nav {
