@@ -1,0 +1,117 @@
+/* newNavBar */
+.navBarSection {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* z-index: 2; */
+}
+
+.navBarSection a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+/* Toggler */
+
+.navBarToggler {
+    width: 60px;
+    height: 40px;
+    /* background-color: aqua; */
+    position: relative;
+    display: none;
+}
+
+.navBarToggler span {
+    background: rgb(129, 129, 129);
+    border-radius: 9px;
+    width: 30px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    margin-left: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+span.line-1 {
+    transform: translate(0, -10px);
+}
+
+.navBarToggler .line-3 {
+    transform: translate(0, 10px);
+}
+
+.openMenu .line-1 {
+    transform: translate(0, 0) rotate(45deg);
+}
+
+.openMenu .line-2 {
+    opacity: 0;
+}
+
+.openMenu .line-3 {
+    transform: translate(0, 0) rotate(-45deg);
+}
+
+.mobileNavBarContainer {
+    transition: all 0.5s ease;
+    display: none;
+    background-color: aliceblue;
+}
+
+.top {
+    background-color: white;
+    position: fixed;
+    top: 80px !important;
+    left: -100%;
+    display: block;
+    width: 70%;
+    height: 80%;
+    padding: 40px;
+    transition: all 1s ease;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.animate {
+    left: 0 !important;
+}
+
+.top a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 17px;
+    /* overflow:; */
+}
+
+@media (max-width: 768px) {
+
+    /* newNavBar */
+    .navBarSection {
+        border-bottom: 1px solid black;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    .mobileNavBarContainer {
+        display: block;
+        position: relative;
+    }
+
+    .navBarToggler {
+        display: block;
+    }
+
+    .right {
+        display: none;
+    }
+}
